@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 /*
   Oh Hello!
 
@@ -6,7 +8,7 @@
   Let's go through the important bits real quick
 */
 :root {
-  --yellow: #ffc600;
+  --yellow: aquamarine;
   --black: #272727;
 }
 
@@ -14,8 +16,9 @@ html {
   /* border-box box model allows us to add padding and border to our elements without increasing their size */
   box-sizing: border-box;
   /* A system font stack so things load nice and quick! */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+  font-family: 'VT323', monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900;
   font-size: 10px;
   color: var(--black);
@@ -34,9 +37,13 @@ html {
 }
 
 body {
-  background-image: url("./images/topography.svg"),
-    linear-gradient(110deg,#02b4d8, #007991);
-  background-size: 340px, auto;
+  /* background-image: url("./images/topography.svg"),
+    linear-gradient(110deg,#02b4d8, #007991); */
+  background-image: url("./images/rzzl-bg.gif"),
+    linear-gradient(110deg,#1c1c1c, #000);
+    background-blend-mode: screen;
+  /* background-size: 340px, auto; */
+  background-size: fill;
   min-height: calc(100vh - 100px);
   margin: 50px;
   /* background: white; */
