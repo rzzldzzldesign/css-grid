@@ -39,9 +39,8 @@ html {
 body {
   /* background-image: url("./images/topography.svg"),
     linear-gradient(110deg,#02b4d8, #007991); */
-  background-image: url("./images/rzzl-bg.gif"),
-    linear-gradient(110deg,#1c1c1c, #000);
-    background-blend-mode: screen;
+  background-image: url("./images/rzzl-bg.gif"), linear-gradient(mistyrose, pink);
+  background-blend-mode: screen;
   /* background-size: 340px, auto; */
   background-size: fill;
   min-height: calc(100vh - 100px);
